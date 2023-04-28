@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.0.5'
+    id 'org.springframework.boot' version '3.0.6'
     id 'io.spring.dependency-management' version '1.1.0'
 }
 
@@ -15,7 +15,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation group: 'org.web3j', name: 'core', version: '4.9.7'
+    implementation group: 'org.web3j', name: 'core', version: '4.9.8'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
